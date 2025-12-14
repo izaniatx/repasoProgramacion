@@ -9,5 +9,8 @@ public class Movil {
         this.bateria = bateria;
     }
 
+    public void usar(){
+        this.bateria = this.bateria - 1;
+    }
 
 }
